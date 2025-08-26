@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+}
+.about-img img{
+    position: relative;
+    width: 500px;
+    box-shadow: 0 0 10px orangered,
+                0 0 10px black;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align: center;
+    font-size: 44px;
+}
+.about-content h4{
+    font-size: 40px;
+    text-align: center;
+}
+.about-content p{
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
